@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eleven" />
+        <module name="productor" />
+        <module name="common" />
+        <module name="rabbit-mq" />
+        <module name="config" />
+        <module name="consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ale" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="eleven" target="1.8" />
+      <module name="eleven (1)" target="1.8" />
+      <module name="productor" target="1.8" />
+      <module name="rabbit-mq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ale" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="eleven" options="-parameters" />
+      <module name="eleven (1)" options="-parameters" />
+      <module name="productor" options="-parameters" />
+      <module name="rabbit-mq" options="-parameters" />
+    </option>
+  </component>
+</project>
